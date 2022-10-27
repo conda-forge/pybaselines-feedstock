@@ -1,5 +1,5 @@
 {% set name = "pybaselines" %}
-{% set version = "0.8.0" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 86ba724c95bf13e6e20c0bb6caad0b7470db4d4d125392dfb0b0257e2c6f4c13
+  sha256: 48373c98c3d413d88b177c7a5c99c04889c2928b658cfd9b990c3aafcbe1d5d2
 
 build:
   number: 0
